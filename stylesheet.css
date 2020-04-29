@@ -1,0 +1,99 @@
+body,html{
+	height= 100%;
+	
+}
+
+input[type=text], input[type=password] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: white;
+}
+.bkground {
+	background-image: url:"Images/pink.jpg";
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100%;
+	width: 100%;
+	filter: blur(5px);
+}
+
+
+h1{
+	font-family: Impact
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 20px
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Center the avatar image inside this container*/
+.imgcontainer {
+  text-align: center;
+}
+
+img.avatar {
+  width: 30%;
+  border-radius: 60%;
+}
+
+.form_container {
+  padding: 20px;
+  height: 65%;
+  width: 20%;
+  text-align:center;
+  background: #636367;
+  border-radius: 20px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+}
+
+.form_cont {
+  padding: 20px;
+  height: 190%;
+  width: 30%;
+  text-align:center;
+  background: #636367;
+  border-radius: 20px;
+  position: absolute;
+   top: 120%;
+  left: 55%;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.panel_cont{
+	position: absolute;
+	top:7%;
+	
+}
+
+.footer{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #636367;
+	text-align: center;
+	position: fixed;
+}
