@@ -96,7 +96,7 @@ if(isset($_POST['uname'], $_POST['csrf_token'], $_POST['pwd'])){
 </section>
 
 <div class ="form_cont" >
-<form method="GET">
+<form method="POST">
 <h1> New User </h1>
 
 	<div class="imgcontainer"> 
